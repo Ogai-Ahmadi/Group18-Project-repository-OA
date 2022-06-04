@@ -8,14 +8,23 @@ public class NumberSwap {
 		
 		int num1 =4;
 		int num2 = 5;
-		System.out.println(num1+" "+num2);
+		
+		/* swapping numbers with temporary variable
+		 * int temporary = num1;
+	num1 = num2;
+	num2 = temporary;
+	System.out.println(num1 + " " + num2);
+	*/
+		  
+		 System.out.println(num1+" "+num2);
 		
 		num1= num1 - num2;
 		num2 = num1 + num2;
 		num1= num2 - num1;
 		
 		System.out.print(num1 + " " + num1);
-
+		
+	
 	}
 
 }
